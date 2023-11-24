@@ -3,12 +3,31 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.btn-primary{
+    background-color: #fd6e0a;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 10px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
 /* header and navigation styles */
+.header{
+    background-color: #fff8f3;
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 0 200px;
+    min-height: 5vh;
 }
 .nav-title{
     font-weight: 800;
@@ -20,7 +39,190 @@ nav li {
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 .text-primary{
     color: #FD6E0A;
+}
+/* Header banner starts */
+
+.banner-container{
+    padding-left: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 95vh;
+}
+.banner-article{
+    flex-basis: 50%;
+    margin-top: 50px;
+}
+.banner-article h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: px 0;
+}
+.banner-article h2{
+    font-weight: 600;
+}
+.banner-article p{
+    margin-bottom: 20px;
+}
+.btn{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 9px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 6px;
+}
+
+/* main starts here */
+
+main{
+    width: 900px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: floralwhite;
+}
+/* about me starts */
+.about-article{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.about-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 150px auto 0 auto;
+}
+.about-article .title{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    padding: 10px 50px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-info{
+    margin: 0 20px;
+    text-align: center;
+}
+.about-info h3{
+    font-size: 18px;
+}
+/* What I do starts */
+
+.skills-container{
+    background-color: #FFFFFF;
+    width: 900px;
+    min-height: 100vh;
+    margin: 300px auto 0 auto;
+}
+.skills-article{
+    text-align: center;
+}
+.skills-article .description{
+    padding: 0 50px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.skills{
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skill{
+    margin-right: 15px;
+    padding: 20px;
+}
+.skill i{
+    font-size: 35px;
+}
+.skill h3{
+    margin: 15px 0;
+}
+.skill p{
+    font-size: 15px;
+}
+
+/* summary-resume starts */
+
+#summary-resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+.education-experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.education-container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.item h4{
+    margin: 20px 0 10px 0;
+}
+.item h5{
+    color: darkgrey;
+}
+.item p{
+    font-size: 15px;
+    margin: 15px 0;
+    padding-right: 20px;
+    color: darkgrey;
+}
+.experience-container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+/* contactn section starts */
+#contact{
+    background-color: #FFFFFF;
+}
+.contact-container{
+    min-height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.connect{
+    width: 400px;
+    
+}
+.connect p{
+    font-size: 12px;
+    color: darkgrey;
+    margin: 20px 0;
+}
+.connect-icon{
+    color: #FD6E0A;
+}
+.message{
+    width: 400px;
+}
+.message form{
+    margin: 20px 0;
+}
+.message input{
+    border: none;
+    padding: 5px 10px;
 }
